@@ -10,10 +10,7 @@ body {
   color: #fff;
 }
 
-body.light {
-  background-color: #fff;
-  color: #000;
-}
+
 
 ul {
   list-style: none;

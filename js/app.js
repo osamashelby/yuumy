@@ -20,11 +20,7 @@ asideBtn.addEventListener("click", (e) => {
   }
 });
 
-document.getElementById("switch").addEventListener("click", (e) => {
-  document.body.classList.toggle("light");
-  aside.classList.toggle("light");
-  containerDiv.classList.toggle("light");
-});
+
 
 asideLinks.map((link) => {
   link.addEventListener("click", (e) => {
