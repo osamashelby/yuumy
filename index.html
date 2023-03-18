@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/img/img01.png">
+  <title>Yummy</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <script src="https://kit.fontawesome.com/21da3bc2eb.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <aside>
+    <div class="links">
+      <ul>
+        <li onclick="searchHandle()">Search</li>
+        <li onclick="getCategories()">Categories</li>
+        <li onclick="getAreas()">Area</li>
+        <li onclick="getIngredients()">Ingredients</li>
+        <li onclick="dispalyContact()">Contact Us</li>
+      </ul>
+    </div>
+
+    <div class="control">
+      <img src="./images/logo.png" alt="" class="icon" />
+      <i class="fa-solid fa-bars asideBtn"></i>
+      <div class="mode">
+        <input type="checkbox" id="switch" /><label for="switch">Toggle</label>
+      </div>
+    </div>
+  </aside>
+
+  <div class="container">
+    <div class="content">
+    </div>
+  </div>
+
+
+  <div class="loadingWrapper">
+    <div class="loading"></div>
+  </div>
+  <script src="js/jquery-3.6.1.min.js"></script>
+
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
